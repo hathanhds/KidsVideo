@@ -7,8 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "CommonDefine.h"
+#import "HomeViewController.h"
+#import "MainTabBarViewController.h"
+#import "UIStoryboard+KidsTube.h"
 
-@interface AppDelegate ()
+NSString * const kHomeViewController = @"HomeViewController_ID";
+NSString * const kMainTabBarController = @"MainTabBarViewController_ID";
+
+@interface AppDelegate ()<UINavigationControllerDelegate>
 
 @end
 
@@ -17,9 +24,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //[self initNavigationLayout];
+    MainTabBarViewController *homeVC = [[UIStoryboard tabBarStoryboard] instantiateViewControllerWithIdentifier:kMainTabBarController];
+    UINavigationController *navCtrlr = [[UINavigationController alloc]initWithRootViewController: homeVC];
+    
+    [self.window setRootViewController:navCtrlr];
+    navCtrlr.delegate = self;
+    navCtrlr.navigationBarHidden = NO;
+    
+    NSError* configureError;
+    [[GGLContext sharedInstance] configureWithError: &configureError];
+    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
+
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:sourceApplication
+                                      annotation:annotation];
+}
+
+- (void) initNavigationLayout {
+    [UINavigationBar appearance].translucent = false;
+    [[UINavigationBar appearance] setBarTintColor:[UIColor clearColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                           nil]];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

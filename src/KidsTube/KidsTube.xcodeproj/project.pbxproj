@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45231BEE87A1507B332BCB1D /* libPods-KidsTubeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E39E2C2C0B4D0090A0A330EF /* libPods-KidsTubeTests.a */; };
+		86BB8021D2D3D7095301A946 /* libPods-KidsTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39491ACA61DCD713B0D42300 /* libPods-KidsTube.a */; };
+		9F71071A82F05566FC8AD8CC /* libPods-KidsTubeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA481F03371793B45528685 /* libPods-KidsTubeUITests.a */; };
+		C366ABD41FAD57A8008DE8FE /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C366ABD31FAD57A8008DE8FE /* TabBarView.m */; };
+		C366ABD61FAD57B9008DE8FE /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C366ABD51FAD57B9008DE8FE /* TabBarView.xib */; };
+		C366ABD91FAD57F2008DE8FE /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C366ABD81FAD57F2008DE8FE /* MainTabBarViewController.m */; };
+		C366ABDD1FAD5CB1008DE8FE /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C366ABDC1FAD5CB0008DE8FE /* TabBar.storyboard */; };
+		C36DF7C91FB40DE500CB2681 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C36DF7C81FB40DE500CB2681 /* GoogleService-Info.plist */; };
+		C373B79D1FB05B030003C941 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B79C1FB05B030003C941 /* HomeViewController.m */; };
+		C373B7A61FB05B300003C941 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B7A51FB05B300003C941 /* SearchViewController.m */; };
+		C373B7A91FB05B3E0003C941 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B7A81FB05B3E0003C941 /* SettingViewController.m */; };
+		C373B7AE1FB065530003C941 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B7AD1FB065530003C941 /* BookmarkViewController.m */; };
+		C373B7B11FB065600003C941 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B7B01FB065600003C941 /* HistoryViewController.m */; };
+		C373B7BE1FB069240003C941 /* UIStoryboard+KidsTube.m in Sources */ = {isa = PBXBuildFile; fileRef = C373B7BD1FB069240003C941 /* UIStoryboard+KidsTube.m */; };
 		C395111F1FAAD6EF005F7419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C395111E1FAAD6EF005F7419 /* main.m */; };
 		C39511221FAAD6EF005F7419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39511211FAAD6EF005F7419 /* AppDelegate.m */; };
 		C39511251FAAD6EF005F7419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39511241FAAD6EF005F7419 /* ViewController.m */; };
@@ -15,6 +29,15 @@
 		C395112D1FAAD6EF005F7419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C395112B1FAAD6EF005F7419 /* LaunchScreen.storyboard */; };
 		C39511381FAAD6EF005F7419 /* KidsTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39511371FAAD6EF005F7419 /* KidsTubeTests.m */; };
 		C39511431FAAD6EF005F7419 /* KidsTubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39511421FAAD6EF005F7419 /* KidsTubeUITests.m */; };
+		C3C6ADB31FB9802900314A99 /* DefaultDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C6ADB21FB9802900314A99 /* DefaultDataManager.m */; };
+		C3C6ADB61FB9835400314A99 /* CommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C6ADB51FB9835400314A99 /* CommonFunction.m */; };
+		C3CBCD7C1FB170ED0089DBE4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD7B1FB170ED0089DBE4 /* Home.storyboard */; };
+		C3CBCD7E1FB170FB0089DBE4 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD7D1FB170FB0089DBE4 /* History.storyboard */; };
+		C3CBCD801FB1710C0089DBE4 /* Bookmark.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD7F1FB1710C0089DBE4 /* Bookmark.storyboard */; };
+		C3CBCD821FB171190089DBE4 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD811FB171190089DBE4 /* Search.storyboard */; };
+		C3CBCD841FB171250089DBE4 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD831FB171250089DBE4 /* Setting.storyboard */; };
+		C3E6D4F51FB2C40500F8A040 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D4F41FB2C40500F8A040 /* DataManager.m */; };
+		C3E6D4F91FB2E94B00F8A040 /* ListVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D4F81FB2E94B00F8A040 /* ListVideoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6E9D1B01F98A9C9893A8D9 /* Pods-KidsTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTubeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTubeTests/Pods-KidsTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		39491ACA61DCD713B0D42300 /* libPods-KidsTube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KidsTube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461A95FC4E6A31EC15FBBC4F /* Pods-KidsTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTubeTests/Pods-KidsTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C104FDAD03754533636D5B6 /* Pods-KidsTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTube/Pods-KidsTube.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BF2FBC599DF20415B44123 /* Pods-KidsTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTube/Pods-KidsTube.release.xcconfig"; sourceTree = "<group>"; };
+		AADE97FAECB9B7EC06B5B0F6 /* Pods-KidsTubeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTubeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTubeUITests/Pods-KidsTubeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C366ABD21FAD57A8008DE8FE /* TabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarView.h; sourceTree = "<group>"; };
+		C366ABD31FAD57A8008DE8FE /* TabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
+		C366ABD51FAD57B9008DE8FE /* TabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		C366ABD71FAD57F2008DE8FE /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		C366ABD81FAD57F2008DE8FE /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		C366ABDC1FAD5CB0008DE8FE /* TabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		C36DF7C81FB40DE500CB2681 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C373B7931FB01C5B0003C941 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		C373B79B1FB05B030003C941 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C373B79C1FB05B030003C941 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C373B7A41FB05B300003C941 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C373B7A51FB05B300003C941 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C373B7A71FB05B3E0003C941 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		C373B7A81FB05B3E0003C941 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		C373B7AC1FB065530003C941 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
+		C373B7AD1FB065530003C941 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
+		C373B7AF1FB065600003C941 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		C373B7B01FB065600003C941 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		C373B7BC1FB069240003C941 /* UIStoryboard+KidsTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+KidsTube.h"; sourceTree = "<group>"; };
+		C373B7BD1FB069240003C941 /* UIStoryboard+KidsTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+KidsTube.m"; sourceTree = "<group>"; };
+		C38CD3231FB59E0300C54F2F /* ConfigApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigApp.h; sourceTree = "<group>"; };
+		C391385C1FBBEFAC00129B05 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C395111A1FAAD6EF005F7419 /* KidsTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C395111E1FAAD6EF005F7419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C39511201FAAD6EF005F7419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +102,22 @@
 		C395113E1FAAD6EF005F7419 /* KidsTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39511421FAAD6EF005F7419 /* KidsTubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidsTubeUITests.m; sourceTree = "<group>"; };
 		C39511441FAAD6EF005F7419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C6ADB11FB9802900314A99 /* DefaultDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultDataManager.h; sourceTree = "<group>"; };
+		C3C6ADB21FB9802900314A99 /* DefaultDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultDataManager.m; sourceTree = "<group>"; };
+		C3C6ADB41FB9835400314A99 /* CommonFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunction.h; sourceTree = "<group>"; };
+		C3C6ADB51FB9835400314A99 /* CommonFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunction.m; sourceTree = "<group>"; };
+		C3CBCD7B1FB170ED0089DBE4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C3CBCD7D1FB170FB0089DBE4 /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		C3CBCD7F1FB1710C0089DBE4 /* Bookmark.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bookmark.storyboard; sourceTree = "<group>"; };
+		C3CBCD811FB171190089DBE4 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		C3CBCD831FB171250089DBE4 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		C3E6D4F31FB2C40500F8A040 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		C3E6D4F41FB2C40500F8A040 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C3E6D4F71FB2E94B00F8A040 /* ListVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVideoTableViewCell.h; sourceTree = "<group>"; };
+		C3E6D4F81FB2E94B00F8A040 /* ListVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVideoTableViewCell.m; sourceTree = "<group>"; };
+		D36D6504716AFDFB952A3EB0 /* Pods-KidsTubeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTubeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTubeUITests/Pods-KidsTubeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E39E2C2C0B4D0090A0A330EF /* libPods-KidsTubeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KidsTubeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA481F03371793B45528685 /* libPods-KidsTubeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KidsTubeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BB8021D2D3D7095301A946 /* libPods-KidsTube.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45231BEE87A1507B332BCB1D /* libPods-KidsTubeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +141,168 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F71071A82F05566FC8AD8CC /* libPods-KidsTubeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066E2F530E10AA963A1D555A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C104FDAD03754533636D5B6 /* Pods-KidsTube.debug.xcconfig */,
+				A8BF2FBC599DF20415B44123 /* Pods-KidsTube.release.xcconfig */,
+				461A95FC4E6A31EC15FBBC4F /* Pods-KidsTubeTests.debug.xcconfig */,
+				1F6E9D1B01F98A9C9893A8D9 /* Pods-KidsTubeTests.release.xcconfig */,
+				AADE97FAECB9B7EC06B5B0F6 /* Pods-KidsTubeUITests.debug.xcconfig */,
+				D36D6504716AFDFB952A3EB0 /* Pods-KidsTubeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4698367462BE472FE874D290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39491ACA61DCD713B0D42300 /* libPods-KidsTube.a */,
+				E39E2C2C0B4D0090A0A330EF /* libPods-KidsTubeTests.a */,
+				FDA481F03371793B45528685 /* libPods-KidsTubeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C360BBCE1FAC717C000AFBC1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7931FB01C5B0003C941 /* CommonDefine.h */,
+				C373B7BC1FB069240003C941 /* UIStoryboard+KidsTube.h */,
+				C373B7BD1FB069240003C941 /* UIStoryboard+KidsTube.m */,
+				C3E6D4F31FB2C40500F8A040 /* DataManager.h */,
+				C3E6D4F41FB2C40500F8A040 /* DataManager.m */,
+				C38CD3231FB59E0300C54F2F /* ConfigApp.h */,
+				C3C6ADB11FB9802900314A99 /* DefaultDataManager.h */,
+				C3C6ADB21FB9802900314A99 /* DefaultDataManager.m */,
+				C3C6ADB41FB9835400314A99 /* CommonFunction.h */,
+				C3C6ADB51FB9835400314A99 /* CommonFunction.m */,
+				C391385C1FBBEFAC00129B05 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C360BBCF1FAC71C4000AFBC1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C366ABD01FAD5758008DE8FE /* TabBar */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C360BBD01FAC71C4000AFBC1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C360BBD11FAC71C4000AFBC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C360BBD21FAC71C4000AFBC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7AA1FB065400003C941 /* Bookmark */,
+				C373B7AB1FB065400003C941 /* History */,
+				C373B7961FB05A510003C941 /* Home */,
+				C373B7971FB05A510003C941 /* Search */,
+				C373B7981FB05A510003C941 /* Setting */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C360BBD31FAC79EF000AFBC1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C366ABD01FAD5758008DE8FE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C366ABD11FAD5772008DE8FE /* CustomTabbar */,
+				C366ABD71FAD57F2008DE8FE /* MainTabBarViewController.h */,
+				C366ABD81FAD57F2008DE8FE /* MainTabBarViewController.m */,
+				C366ABDC1FAD5CB0008DE8FE /* TabBar.storyboard */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		C366ABD11FAD5772008DE8FE /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C366ABD21FAD57A8008DE8FE /* TabBarView.h */,
+				C366ABD31FAD57A8008DE8FE /* TabBarView.m */,
+				C366ABD51FAD57B9008DE8FE /* TabBarView.xib */,
+			);
+			name = CustomTabbar;
+			path = Tabbar/CustomTabbar;
+			sourceTree = "<group>";
+		};
+		C373B7961FB05A510003C941 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6D4F61FB2E56600F8A040 /* Cell */,
+				C373B79B1FB05B030003C941 /* HomeViewController.h */,
+				C373B79C1FB05B030003C941 /* HomeViewController.m */,
+				C3CBCD7B1FB170ED0089DBE4 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C373B7971FB05A510003C941 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7A41FB05B300003C941 /* SearchViewController.h */,
+				C373B7A51FB05B300003C941 /* SearchViewController.m */,
+				C3CBCD811FB171190089DBE4 /* Search.storyboard */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C373B7981FB05A510003C941 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7A71FB05B3E0003C941 /* SettingViewController.h */,
+				C373B7A81FB05B3E0003C941 /* SettingViewController.m */,
+				C3CBCD831FB171250089DBE4 /* Setting.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C373B7AA1FB065400003C941 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7AC1FB065530003C941 /* BookmarkViewController.h */,
+				C373B7AD1FB065530003C941 /* BookmarkViewController.m */,
+				C3CBCD7F1FB1710C0089DBE4 /* Bookmark.storyboard */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		C373B7AB1FB065400003C941 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				C373B7AF1FB065600003C941 /* HistoryViewController.h */,
+				C373B7B01FB065600003C941 /* HistoryViewController.m */,
+				C3CBCD7D1FB170FB0089DBE4 /* History.storyboard */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
 		C39511111FAAD6EF005F7419 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +310,8 @@
 				C39511361FAAD6EF005F7419 /* KidsTubeTests */,
 				C39511411FAAD6EF005F7419 /* KidsTubeUITests */,
 				C395111B1FAAD6EF005F7419 /* Products */,
+				066E2F530E10AA963A1D555A /* Pods */,
+				4698367462BE472FE874D290 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +328,12 @@
 		C395111C1FAAD6EF005F7419 /* KidsTube */ = {
 			isa = PBXGroup;
 			children = (
+				C360BBD31FAC79EF000AFBC1 /* Image */,
+				C360BBCF1FAC71C4000AFBC1 /* CustomView */,
+				C360BBD01FAC71C4000AFBC1 /* Library */,
+				C360BBD11FAC71C4000AFBC1 /* Model */,
+				C360BBD21FAC71C4000AFBC1 /* ViewController */,
+				C360BBCE1FAC717C000AFBC1 /* Common */,
 				C39511201FAAD6EF005F7419 /* AppDelegate.h */,
 				C39511211FAAD6EF005F7419 /* AppDelegate.m */,
 				C39511231FAAD6EF005F7419 /* ViewController.h */,
@@ -108,6 +341,7 @@
 				C39511261FAAD6EF005F7419 /* Main.storyboard */,
 				C39511291FAAD6EF005F7419 /* Assets.xcassets */,
 				C395112B1FAAD6EF005F7419 /* LaunchScreen.storyboard */,
+				C36DF7C81FB40DE500CB2681 /* GoogleService-Info.plist */,
 				C395112E1FAAD6EF005F7419 /* Info.plist */,
 				C395111D1FAAD6EF005F7419 /* Supporting Files */,
 			);
@@ -140,6 +374,15 @@
 			path = KidsTubeUITests;
 			sourceTree = "<group>";
 		};
+		C3E6D4F61FB2E56600F8A040 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6D4F71FB2E94B00F8A040 /* ListVideoTableViewCell.h */,
+				C3E6D4F81FB2E94B00F8A040 /* ListVideoTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +390,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39511471FAAD6EF005F7419 /* Build configuration list for PBXNativeTarget "KidsTube" */;
 			buildPhases = (
+				F1E81830AA17E592E427C1FA /* [CP] Check Pods Manifest.lock */,
 				C39511161FAAD6EF005F7419 /* Sources */,
 				C39511171FAAD6EF005F7419 /* Frameworks */,
 				C39511181FAAD6EF005F7419 /* Resources */,
+				6F498A6930AEA2419DF1ABED /* [CP] Embed Pods Frameworks */,
+				BD535B117974F9EBEB184F32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C395114A1FAAD6EF005F7419 /* Build configuration list for PBXNativeTarget "KidsTubeTests" */;
 			buildPhases = (
+				13F16B62C79C6BEB107190AD /* [CP] Check Pods Manifest.lock */,
 				C395112F1FAAD6EF005F7419 /* Sources */,
 				C39511301FAAD6EF005F7419 /* Frameworks */,
 				C39511311FAAD6EF005F7419 /* Resources */,
+				7B6584C75F8B102972CEECDF /* [CP] Embed Pods Frameworks */,
+				86E825CBAA01EA5AD3315332 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +431,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C395114D1FAAD6EF005F7419 /* Build configuration list for PBXNativeTarget "KidsTubeUITests" */;
 			buildPhases = (
+				0F6B24F62AD9BD0D666BE2C9 /* [CP] Check Pods Manifest.lock */,
 				C395113A1FAAD6EF005F7419 /* Sources */,
 				C395113B1FAAD6EF005F7419 /* Frameworks */,
 				C395113C1FAAD6EF005F7419 /* Resources */,
+				654444A77FF410003B7FC8BD /* [CP] Embed Pods Frameworks */,
+				85CFCFF2F27167081D6CA372 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +499,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CBCD801FB1710C0089DBE4 /* Bookmark.storyboard in Resources */,
+				C366ABDD1FAD5CB1008DE8FE /* TabBar.storyboard in Resources */,
 				C395112D1FAAD6EF005F7419 /* LaunchScreen.storyboard in Resources */,
+				C3CBCD7E1FB170FB0089DBE4 /* History.storyboard in Resources */,
+				C3CBCD821FB171190089DBE4 /* Search.storyboard in Resources */,
 				C395112A1FAAD6EF005F7419 /* Assets.xcassets in Resources */,
+				C3CBCD7C1FB170ED0089DBE4 /* Home.storyboard in Resources */,
+				C3CBCD841FB171250089DBE4 /* Setting.storyboard in Resources */,
+				C36DF7C91FB40DE500CB2681 /* GoogleService-Info.plist in Resources */,
+				C366ABD61FAD57B9008DE8FE /* TabBarView.xib in Resources */,
 				C39511281FAAD6EF005F7419 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,14 +529,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6B24F62AD9BD0D666BE2C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsTubeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13F16B62C79C6BEB107190AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsTubeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654444A77FF410003B7FC8BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTubeUITests/Pods-KidsTubeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F498A6930AEA2419DF1ABED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTube/Pods-KidsTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6584C75F8B102972CEECDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTubeTests/Pods-KidsTubeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CFCFF2F27167081D6CA372 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTubeUITests/Pods-KidsTubeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E825CBAA01EA5AD3315332 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTubeTests/Pods-KidsTubeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD535B117974F9EBEB184F32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KidsTube/Pods-KidsTube-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/youtube-ios-player-helper/youtube-ios-player-helper/Assets.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KidsTube/Pods-KidsTube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E81830AA17E592E427C1FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C39511161FAAD6EF005F7419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C39511251FAAD6EF005F7419 /* ViewController.m in Sources */,
+				C3E6D4F51FB2C40500F8A040 /* DataManager.m in Sources */,
 				C39511221FAAD6EF005F7419 /* AppDelegate.m in Sources */,
+				C366ABD91FAD57F2008DE8FE /* MainTabBarViewController.m in Sources */,
+				C3E6D4F91FB2E94B00F8A040 /* ListVideoTableViewCell.m in Sources */,
+				C373B7B11FB065600003C941 /* HistoryViewController.m in Sources */,
+				C373B7A61FB05B300003C941 /* SearchViewController.m in Sources */,
+				C366ABD41FAD57A8008DE8FE /* TabBarView.m in Sources */,
+				C373B7BE1FB069240003C941 /* UIStoryboard+KidsTube.m in Sources */,
 				C395111F1FAAD6EF005F7419 /* main.m in Sources */,
+				C373B79D1FB05B030003C941 /* HomeViewController.m in Sources */,
+				C3C6ADB31FB9802900314A99 /* DefaultDataManager.m in Sources */,
+				C373B7A91FB05B3E0003C941 /* SettingViewController.m in Sources */,
+				C373B7AE1FB065530003C941 /* BookmarkViewController.m in Sources */,
+				C3C6ADB61FB9835400314A99 /* CommonFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +849,12 @@
 		};
 		C39511481FAAD6EF005F7419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C104FDAD03754533636D5B6 /* Pods-KidsTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6CV7UNHJKY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KidsTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamota.KidsTube;
@@ -437,9 +864,12 @@
 		};
 		C39511491FAAD6EF005F7419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BF2FBC599DF20415B44123 /* Pods-KidsTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6CV7UNHJKY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KidsTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamota.KidsTube;
@@ -449,6 +879,7 @@
 		};
 		C395114B1FAAD6EF005F7419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461A95FC4E6A31EC15FBBC4F /* Pods-KidsTubeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KidsTubeTests/Info.plist;
@@ -461,6 +892,7 @@
 		};
 		C395114C1FAAD6EF005F7419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6E9D1B01F98A9C9893A8D9 /* Pods-KidsTubeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KidsTubeTests/Info.plist;
@@ -473,6 +905,7 @@
 		};
 		C395114E1FAAD6EF005F7419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADE97FAECB9B7EC06B5B0F6 /* Pods-KidsTubeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KidsTubeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +917,7 @@
 		};
 		C395114F1FAAD6EF005F7419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36D6504716AFDFB952A3EB0 /* Pods-KidsTubeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KidsTubeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -512,6 +946,7 @@
 				C39511491FAAD6EF005F7419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C395114A1FAAD6EF005F7419 /* Build configuration list for PBXNativeTarget "KidsTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +955,7 @@
 				C395114C1FAAD6EF005F7419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C395114D1FAAD6EF005F7419 /* Build configuration list for PBXNativeTarget "KidsTubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +964,7 @@
 				C395114F1FAAD6EF005F7419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
