@@ -39,4 +39,5 @@ static CommonFunction *_instance = nil;
 }
 
 
+
 @end

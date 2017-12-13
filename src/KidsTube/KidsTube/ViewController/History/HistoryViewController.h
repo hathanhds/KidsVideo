@@ -2,7 +2,7 @@
 //  HistoryViewController.h
 //  KidsTube
 //
-//  Created by Xuan Xuxu on 11/6/17.
+//  Created by Xuan Xuxu on 11/30/17.
 //  Copyright © 2017 gamota. All rights reserved.
 //
 

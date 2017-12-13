@@ -2,13 +2,17 @@
 //  BookmarkViewController.m
 //  KidsTube
 //
-//  Created by Xuan Xuxu on 11/6/17.
+//  Created by Xuan Xuxu on 11/30/17.
 //  Copyright © 2017 gamota. All rights reserved.
 //
 
 #import "BookmarkViewController.h"
+#import "BookmarkTableViewCell.h"
 
-@interface BookmarkViewController ()
+NSString * const kBookmarkTableCell = @"BookmarkTableViewCell_ID";
+
+@interface BookmarkViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *bookmarkTableView;
 
 @end
 
@@ -16,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"Bookmark";
     // Do any additional setup after loading the view.
 }
 
@@ -33,5 +38,23 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - UItableView DataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 100;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    BookmarkTableViewCell *cell = (BookmarkTableViewCell *)[_bookmarkTableView dequeueReusableCellWithIdentifier:kBookmarkTableCell forIndexPath:indexPath];
+    
+    return cell;
+}
+
+
 
 @end

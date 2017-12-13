@@ -15,6 +15,9 @@
 #define HEIGHT_STATUS_BAR 21
 #define HEIGHT_TABBAR 50
 
+#define BOOKMARK_STATE 0
+#define HISTORY_STATE 1
+
 #define TITLE_SUBMIT @"Submit"
 #define TITLE_OK @"OK"
 #define TITLE_ERROR @"Lỗi"

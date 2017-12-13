@@ -1,5 +1,5 @@
 //
-//  BookmarkViewController.h
+//  HistoryTableViewCell.h
 //  KidsTube
 //
 //  Created by Xuan Xuxu on 11/30/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BookmarkViewController : UIViewController
+@interface HistoryTableViewCell : UITableViewCell
 
 @end

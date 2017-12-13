@@ -56,31 +56,26 @@
     {
         UINavigationController *navi = [[UIStoryboard homeStoryboard] instantiateInitialViewController];
         [self addChildViewController:navi];
-        //navi.interactivePopGestureRecognizer.enabled = NO;
     }
     
     {
         UINavigationController *navi = [[UIStoryboard bookmarkStoryboard] instantiateInitialViewController];
         [self addChildViewController:navi];
-        //navi.interactivePopGestureRecognizer.enabled = NO;
     }
     
     {
         UINavigationController *navi = [[UIStoryboard historyStoryboard] instantiateInitialViewController];
         [self addChildViewController:navi];
-        //navi.interactivePopGestureRecognizer.enabled = NO;
     }
     
     {
         UINavigationController *navi = [[UIStoryboard searchStoryboard] instantiateInitialViewController];
         [self addChildViewController:navi];
-        //navi.interactivePopGestureRecognizer.enabled = NO;
     }
     
     {
         UINavigationController *navi = [[UIStoryboard settingStoryboard] instantiateInitialViewController];
         [self addChildViewController:navi];
-        //navi.interactivePopGestureRecognizer.enabled = NO;
     }
     
     [self setUpTabbar];
@@ -106,11 +101,6 @@
 - (IBAction)tabBarMainAction:(id)sender {
     NSInteger indexTab = [sender tag] - BASE_TAG;
     self.selectedIndex = indexTab;
-//    UINavigationController *nav = [self viewControllers][indexTab];
-//    //[nav popToRootViewControllerAnimated:YES];
-//    
-//    CGFloat heighStatusBar = HEIGHT_STATUS_BAR;
-//    CGRect frame = CGRectMake(0, SCREEN_HEIGHT_PORTRAIT - HEIGHT_TABBAR, SCREEN_WIDTH_PORTRAIT, HEIGHT_TABBAR);
     CGRect frame = CGRectMake(0, self.view.frame.size.height - self.tabbarView.frame.size.height, self.view.frame.size.width, self.tabbarView.frame.size.height);
     self.tabBar.hidden = NO;
     [self.tabBar setFrame:frame];

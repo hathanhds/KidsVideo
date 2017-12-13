@@ -7,8 +7,6 @@
 //
 
 #import "DataManager.h"
-#import <AFNetworking.h>
-#import <MBProgressHUD.h>
 
 @implementation DataManager
 static DataManager *_instance = nil;
@@ -31,7 +29,6 @@ static DataManager *_instance = nil;
             success:(void (^)(NSURLSessionTask *task, id responseObj))success
             failure:(void (^)(NSURLSessionTask *task, NSError *error))failure{
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     // show indicater
     

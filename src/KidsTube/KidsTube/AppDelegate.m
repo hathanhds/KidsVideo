@@ -24,7 +24,7 @@ NSString * const kMainTabBarController = @"MainTabBarViewController_ID";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //[self initNavigationLayout];
+    [self initNavigationLayout];
     MainTabBarViewController *homeVC = [[UIStoryboard tabBarStoryboard] instantiateViewControllerWithIdentifier:kMainTabBarController];
     UINavigationController *navCtrlr = [[UINavigationController alloc]initWithRootViewController: homeVC];
     
@@ -50,10 +50,13 @@ NSString * const kMainTabBarController = @"MainTabBarViewController_ID";
 
 - (void) initNavigationLayout {
     [UINavigationBar appearance].translucent = false;
-    [[UINavigationBar appearance] setBarTintColor:[UIColor clearColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor purpleColor]];
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor whiteColor], NSForegroundColorAttributeName,
                                                            nil]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

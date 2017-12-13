@@ -34,4 +34,8 @@
     return [self storyboardWithName:@"TabBar" bundle:nil];
 }
 
++ (UIStoryboard *)videoStoryboard {
+    return [self storyboardWithName:@"Video" bundle:nil];
+}
+
 @end

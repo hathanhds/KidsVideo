@@ -24,12 +24,13 @@ NSString * const kPassword = @"pass_word";
     self = [super init];
     if (self) {
         _password = [self integerForKey:kPassword defaultValue:0];
+        
     }
     return self;
 }
 
 
-#pragma mark - private instance method
+#pragma mark - private instance methodv
 
 - (NSInteger)integerForKey:(NSString *)key
               defaultValue:(NSInteger)defaultValue

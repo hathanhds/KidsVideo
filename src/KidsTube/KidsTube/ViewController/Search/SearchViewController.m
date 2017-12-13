@@ -7,8 +7,12 @@
 //
 
 #import "SearchViewController.h"
+#import "SearchTableViewCell.h"
 
-@interface SearchViewController ()
+NSString * kSearchTableCell = @"SearchTableViewCell_ID";
+
+@interface SearchViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *searchTableView;
 
 @end
 
@@ -16,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"Search";
     // Do any additional setup after loading the view.
 }
 
@@ -33,5 +38,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    SearchTableViewCell *cell = (SearchTableViewCell *)[_searchTableView dequeueReusableCellWithIdentifier:kSearchTableCell forIndexPath:indexPath];
+    
+    return cell;
+}
 
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="I4P-nG-c8X">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qjR-u1-JdM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,23 +9,96 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Bookmark View Controller-->
-        <scene sceneID="FxS-6F-Vfv">
+        <!--Navigation Controller-->
+        <scene sceneID="U6t-9h-iTq">
             <objects>
-                <viewController storyboardIdentifier="BookmarkViewController_ID" id="I4P-nG-c8X" customClass="BookmarkViewController" sceneMemberID="viewController">
+                <navigationController id="qjR-u1-JdM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="M4Q-3q-6em">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YAm-JK-yBC" kind="relationship" relationship="rootViewController" id="Qbj-aa-WZk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K6V-Ko-wtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="99"/>
+        </scene>
+        <!--Bookmark View Controller-->
+        <scene sceneID="SPq-XK-moW">
+            <objects>
+                <viewController id="YAm-JK-yBC" customClass="BookmarkViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YAs-HD-pAa"/>
-                        <viewControllerLayoutGuide type="bottom" id="JZ4-eN-O6e"/>
+                        <viewControllerLayoutGuide type="top" id="P5b-8s-0zc"/>
+                        <viewControllerLayoutGuide type="bottom" id="PRV-LT-HyT"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MJS-5W-YfV">
+                    <view key="view" contentMode="scaleToFill" id="3uX-fk-d0e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99530488250000004" green="0.11471246929999999" blue="0.0012540346940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X5l-nL-RNC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookmarkTableViewCell_ID" id="4US-vd-7JM" customClass="BookmarkTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4US-vd-7JM" id="LKp-lc-SVL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vEX-DW-5Qj">
+                                                    <rect key="frame" x="8" y="8" width="96" height="84"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="96" id="5Kj-GX-BeG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjE-2X-3bn">
+                                                    <rect key="frame" x="112" y="39" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.62733843537414968" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="vEX-DW-5Qj" firstAttribute="leading" secondItem="LKp-lc-SVL" secondAttribute="leading" constant="8" id="461-5n-w5w"/>
+                                                <constraint firstItem="vEX-DW-5Qj" firstAttribute="top" secondItem="LKp-lc-SVL" secondAttribute="top" constant="8" id="DAd-7S-3aM"/>
+                                                <constraint firstAttribute="bottom" secondItem="vEX-DW-5Qj" secondAttribute="bottom" constant="8" id="IiT-RT-kbN"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rjE-2X-3bn" secondAttribute="trailing" constant="10" id="PkT-hW-jwC"/>
+                                                <constraint firstItem="rjE-2X-3bn" firstAttribute="centerY" secondItem="LKp-lc-SVL" secondAttribute="centerY" id="g6g-CH-h1a"/>
+                                                <constraint firstItem="rjE-2X-3bn" firstAttribute="leading" secondItem="vEX-DW-5Qj" secondAttribute="trailing" constant="8" id="t6z-ed-XOj"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="avatarImageView" destination="vEX-DW-5Qj" id="vsT-bd-Fe2"/>
+                                            <outlet property="titleLabel" destination="rjE-2X-3bn" id="bJa-Us-AS4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="YAm-JK-yBC" id="NPJ-Aq-pde"/>
+                                    <outlet property="delegate" destination="YAm-JK-yBC" id="Quf-DB-bTh"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="X5l-nL-RNC" firstAttribute="leading" secondItem="3uX-fk-d0e" secondAttribute="leading" id="0bp-Ds-273"/>
+                            <constraint firstAttribute="trailing" secondItem="X5l-nL-RNC" secondAttribute="trailing" id="6Kx-MO-Myo"/>
+                            <constraint firstItem="PRV-LT-HyT" firstAttribute="top" secondItem="X5l-nL-RNC" secondAttribute="bottom" id="mGH-YE-Rar"/>
+                            <constraint firstItem="X5l-nL-RNC" firstAttribute="top" secondItem="P5b-8s-0zc" secondAttribute="bottom" id="y0N-4p-eY7"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vhP-PE-1OQ"/>
+                    <connections>
+                        <outlet property="bookmarkTableView" destination="X5l-nL-RNC" id="g1h-fH-sBa"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PDi-CE-CPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TjX-IB-R8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="106" y="188"/>
+            <point key="canvasLocation" x="352.80000000000001" y="98.50074962518741"/>
         </scene>
     </scenes>
 </document>

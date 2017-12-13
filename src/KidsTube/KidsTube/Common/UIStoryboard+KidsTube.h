@@ -16,7 +16,6 @@
 + (UIStoryboard *)searchStoryboard;
 + (UIStoryboard *)settingStoryboard;
 + (UIStoryboard *)tabBarStoryboard;
-
-
++ (UIStoryboard *)videoStoryboard;
 
 @end
